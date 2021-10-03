@@ -25,6 +25,7 @@ export const managers = [
       "name": "Jake L",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Virginia", // (optional)
+      "bio": null,
       "photo": "/managers/Jake.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2002, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "pit", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -34,6 +35,8 @@ export const managers = [
         link: 2, // manager array number within this array, or null to link back to all managers page
         image: "/managers/Josh.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
+      "favoritePlayer": null, 
+      "valuePosition": null,
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Two years away from being two years away",
       "tradingScale": 10, // 1 - 10
@@ -44,6 +47,7 @@ export const managers = [
       "name": "Andre S",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Florida", // (optional)
+      "bio": null,
       "photo": "/managers/Andre.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2021, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "nep", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -53,6 +57,8 @@ export const managers = [
         link: 8, // manager array number within this array, or null to link back to all managers page
         image: "/managers/Dylan.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
+      "favoritePlayer": null, 
+      "valuePosition": null,
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Mikey's Alternate Team",
       "tradingScale": 5, // 1 - 10
@@ -63,6 +69,7 @@ export const managers = [
       "name": "Josh B",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Texas", // (optional)
+      "bio": null,
       "photo": "/managers/Josh.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2020, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "dal", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -72,6 +79,8 @@ export const managers = [
         link: 0, // manager array number within this array, or null to link back to all managers page
         image: "/managers/Jake.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
+      "favoritePlayer": null, 
+      "valuePosition": null,
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "I'm the Jerry Jones of FF",
       "tradingScale": 10, // 1 - 10
@@ -82,6 +91,7 @@ export const managers = [
       "name": "Jon F",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Florida", // (optional)
+      "bio": null,
       "photo": "/managers/Fountain.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2005, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "tbb", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -91,6 +101,8 @@ export const managers = [
         link: 6, // manager array number within this array, or null to link back to all managers page
         image: "/managers/Mikey.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
+      "favoritePlayer": null, 
+      "valuePosition": null,
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Bill Belichek has me on Speed Dial",
       "tradingScale": 10, // 1 - 10
@@ -101,6 +113,7 @@ export const managers = [
       "name": "Rich L",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Virginia", // (optional)
+      "bio": null,
       "photo": "/managers/LaCasse.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2012, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "lvr", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -110,6 +123,8 @@ export const managers = [
         link: 5, // manager array number within this array, or null to link back to all managers page
         image: "/managers/Brett.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
+      "favoritePlayer": null, 
+      "valuePosition": null,
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Al Davis Reincarnate",
       "tradingScale": 10, // 1 - 10
@@ -120,15 +135,18 @@ export const managers = [
       "name": "Brett S",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Texas", // (optional)
+      "bio": null,
       "photo": "/managers/Brett.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2021, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "dal", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "favoriteTeam": "chi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Rich L", // Can be anything (usually your rival's name)
         link: 4, // manager array number within this array, or null to link back to all managers page
         image: "/managers/LaCasse.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
+      "favoritePlayer": null, 
+      "valuePosition": null,
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "I don't know Brett well enough to make fun of him :(",
       "tradingScale": 5, // 1 - 10
@@ -139,6 +157,7 @@ export const managers = [
       "name": "Mikey O",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Florida", // (optional)
+      "bio": null,
       "photo": "/managers/Josh.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2020, // (optional) when did the manager start playing fantasy football
       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -147,6 +166,8 @@ export const managers = [
         link: 3, // manager array number within this array, or null to link back to all managers page
         image: "/managers/Fountain.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
+      "favoritePlayer": null, 
+      "valuePosition": null,
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Snake in the grass. DANGER, DANGER",
       "tradingScale": 10, // 1 - 10
@@ -157,6 +178,7 @@ export const managers = [
       "name": "Sam M",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Florida", // (optional)
+      "bio": null,
       "photo": "/managers/Sam.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2021, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "pit", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -166,6 +188,8 @@ export const managers = [
         link: 9, // manager array number within this array, or null to link back to all managers page
         image: "/managers/Bryan.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
+      "favoritePlayer": null, 
+      "valuePosition": null,
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Could start on the OL for the Steelers",
       "tradingScale": 5, // 1 - 10
@@ -176,6 +200,7 @@ export const managers = [
       "name": "Dylan L",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Arizona", // (optional)
+      "bio": null,
       "photo": "/managers/Dylan.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2021, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "azc", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -185,6 +210,8 @@ export const managers = [
         link: 1, // manager array number within this array, or null to link back to all managers page
         image: "/managers/Andre.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
+      "favoritePlayer": null, 
+      "valuePosition": null,
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Second best manager in the league and in my own family",
       "tradingScale": 5, // 1 - 10
@@ -195,6 +222,7 @@ export const managers = [
       "name": "Bryan B",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Florida", // (optional)
+      "bio": null,
       "photo": "/managers/Bryan.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2015, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "nos", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -204,6 +232,8 @@ export const managers = [
         link: 7, // manager array number within this array, or null to link back to all managers page
         image: "/managers/Sam.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
+      "favoritePlayer": null, 
+      "valuePosition": null,
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Saints at all cost",
       "tradingScale": 10, // 1 - 10
@@ -214,6 +244,7 @@ export const managers = [
       "name": "Jonny C",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Colorado", // (optional)
+      "bio": null,
       "photo": "/managers/Jonny.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2021, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "pit", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -223,6 +254,8 @@ export const managers = [
         link: 11, // manager array number within this array, or null to link back to all managers page
         image: "/managers/Jesse.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
+      "favoritePlayer": null, 
+      "valuePosition": null,
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "First Team All Hair",
       "tradingScale": 5, // 1 - 10
@@ -233,6 +266,7 @@ export const managers = [
       "name": "Jesse C",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Colorado", // (optional)
+      "bio": null,
       "photo": "/managers/Jesse.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2021, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "pit", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -242,6 +276,8 @@ export const managers = [
         link: 10, // manager array number within this array, or null to link back to all managers page
         image: "/managers/Jonny.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
+      "favoritePlayer": null, 
+      "valuePosition": null,
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Have I mentioned my BFF Derek Carr?",
       "tradingScale": 5, // 1 - 10
@@ -262,7 +298,7 @@ export const managers = [
     //   "name": "Your Name",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
-    //   "bio": "Lorem ipsum...",
+    //   "bio": null,
     //   "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
     //   "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
     //   "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
